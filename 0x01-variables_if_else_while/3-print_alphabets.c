@@ -5,10 +5,15 @@
  */
 int main(void)
 {
-	int num;
+	char ch;
 
-	for (num = 0; num < 10; num++)
-		printf("%d, num");
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
+
 	putchar('\n');
+
 	return (0);
 }
