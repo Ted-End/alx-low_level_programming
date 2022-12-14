@@ -5,11 +5,17 @@
  */
 int main(void)
 {
-	int n;
+	long int i, j, k, next;
 
-	for (n = 0; n < 50; n++)
+	j = 1;
+
+	k = 2;
+
+	for (i = 1; i < 50; ++i)
 	{
-		printf(fib(n - 1) + fib(n - 2));
+		next = j + k;
+		j = k;
+		k = next;
 	}
 	return (0);
 }
