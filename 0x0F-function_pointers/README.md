@@ -1,1 +1,1 @@
-0x0F. C - function pointers
+0x0F-function_pointers
